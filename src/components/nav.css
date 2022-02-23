@@ -1,0 +1,23 @@
+.nav {
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navButtons {
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.navButtons button {
+    margin: 0 5px;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    background: none;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+}
