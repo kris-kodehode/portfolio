@@ -1,0 +1,22 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.project-container {    
+    color: white;
+    border: 15px solid rgb(37, 37, 37);
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-text {
+    text-align: center;
+}

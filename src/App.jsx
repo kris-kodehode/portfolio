@@ -22,7 +22,7 @@ export default function App() {
         component = <Projects />;
         break;
       default:
-        component = <Home/>;
+        component = <Home />;
     }
     return component;
   }

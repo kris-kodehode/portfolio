@@ -27,7 +27,7 @@
 .profile-img {
     align-self: center;
     border-radius: 50%;
-    width: 400px;
+    width: 350px;
     border: 2px solid white;
     filter: drop-shadow(5px 5px 15px black);
 }
