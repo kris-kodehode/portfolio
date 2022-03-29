@@ -1,15 +1,13 @@
 import React from "react"
-import "./nav.css"
+import { nav_Text_Button_Contact, nav_Text_Button_Home, nav_Text_Button_Projects } from "../language/en"
+import { Nav, NavBTN } from "./navStyles"
 
-export default function Nav(props) {
-
+export default function NavBar() {
     return (
-        <div className="nav">
-            <div className="navButtons">
-                <button onClick={() => props.handleClick("Home")}>Home</button>
-                <button onClick={() => props.handleClick("Projects")}>Projects</button>
-                <button >Contact</button>
-            </div>
-        </div>
+        <Nav>
+            <NavBTN>{nav_Text_Button_Home}</NavBTN>
+            <NavBTN>{nav_Text_Button_Projects}</NavBTN>
+            <NavBTN>{nav_Text_Button_Contact}</NavBTN>
+        </Nav>
     )
 }

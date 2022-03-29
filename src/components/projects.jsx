@@ -1,23 +1,22 @@
 import React from "react"
-import "./projects.css"
+import { ProjectsContainer, ProjectCard, ProjectText } from "./projectsStyle"
 import projectsData from "./projectsData"
 
-export default function Projects() {
-
-    let projectsList = projectsData.map(item => {
-        return (
-            <div onClick= {()=> window.open(item.url)} style={{backgroundImage: `url(${item.background})`}} key={item.title} className="project-container">
-                <div className="project-text">
-                    <p>{item.title}</p>
-                    <p>{item.discription}</p>
-                </div>
-            </div>
-        )
-    })
-
+let projectsList = projectsData.map(project => {
     return (
-        <div className="container">
-                {projectsList}
-        </div>
+        <ProjectCard onClick= {()=> window.open(project.url)} style={{backgroundImage: `url(${project.background})`}} key={project.title} className="projectCard">
+            <ProjectText>
+                <p>{project.title}</p>
+                <p>{project.discription}</p>
+            </ProjectText>
+        </ProjectCard>
+    )
+})
+
+export default function Projects() {
+    return (
+        <ProjectsContainer>
+            {projectsList}
+        </ProjectsContainer>
     )
 }
