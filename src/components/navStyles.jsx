@@ -24,6 +24,12 @@ export const NavBTN = styled.button`
     border-radius: 10px;
     border: none;
 
+    &:hover {
+        color: #5dccff;
+        background: rgb(77, 77, 77);
+        cursor: pointer;
+    }
+
     @media (max-width: 768px) {
         width: 6rem;
     }
