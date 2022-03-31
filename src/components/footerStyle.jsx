@@ -19,8 +19,15 @@ export const FooterContactBoxSmall = styled.a`
     display: flex;
     align-items: center;
     color: white;
+    text-decoration: none;
     gap: .5rem;
     margin-bottom: .5rem;
+
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: #5dccff;
+    }
 `
 
 export const IconPhone = styled(AiFillPhone)`
@@ -47,4 +54,7 @@ export const Copyright = styled.p`
 `
 
 export const IconCopyright = styled(AiOutlineCopyright)`
+`
+
+export const FooterThanks = styled.p`
 `
