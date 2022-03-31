@@ -24,7 +24,7 @@ export const NavBTN = styled.button`
     border-radius: 10px;
     border: none;
 
-    &:hover {
+    &:hover, &:active {
         color: #5dccff;
         background: rgb(77, 77, 77);
         cursor: pointer;

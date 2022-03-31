@@ -1,17 +1,17 @@
 import React  from "react"
-import { Globalstyle } from "./appStyles"
+import { Globalstyle, StyledApp } from "./appStyles"
 import Home from "./pages/Home"
 import Nav from "./components/NavBar"
-import Footer from "./components/FooterSection"
+import Footer from "./components/Footer"
 
 export default function App() {
 
   return (
-    <div className="App">
+    <StyledApp>
       <Globalstyle/>
       <Nav/>
       <Home/>
       <Footer/>
-    </div>
+    </StyledApp>
   )
 }
