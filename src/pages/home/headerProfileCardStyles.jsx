@@ -27,7 +27,7 @@ export const Header = styled.header`
         }
     }
 `
-export const ProfileIMG = styled.img`
+export const StyledProfileIMG = styled.img`
     border-radius: 50%;
     max-width: 20em;
     max-height: 20em;
@@ -42,7 +42,7 @@ export const ProfileIMG = styled.img`
         max-width: 15em;
     }
 `
-
+ 
 export const IconContainer = styled.div`
     display: flex;
     gap: .5rem;
@@ -94,10 +94,12 @@ export const ProfileTextContainer = styled.div`
 
 export const ProfileNameGreeting = styled.h1`
     margin: 0 0 1.5rem 0;
-    width: 15rem;
+    width: 16rem;
+    white-space: pre-line;
 `
 
 export const ProfileParagraph = styled.p`
+    white-space: pre-line;
     margin: 0 0 2rem 0;
     width: 15rem;
 `

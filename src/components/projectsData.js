@@ -12,5 +12,47 @@ export default [
         url: "https://kris-kodehode.github.io/tipcalculator/",
         gitHubURL: "https://github.com/kris-kodehode/tipcalculator",
         background: require("../images/tip-calculator.png")
+    },
+    {
+        title: "Tip Calculator",
+        discription: "One of the first projects from FrontendMentor i finished after starting javascript.",
+        url: "https://kris-kodehode.github.io/tipcalculator/",
+        gitHubURL: "https://github.com/kris-kodehode/tipcalculator",
+        background: require("../images/tip-calculator.png")
+    },
+    {
+        title: "Tip Calculator",
+        discription: "One of the first projects from FrontendMentor i finished after starting javascript.",
+        url: "https://kris-kodehode.github.io/tipcalculator/",
+        gitHubURL: "https://github.com/kris-kodehode/tipcalculator",
+        background: require("../images/tip-calculator.png")
+    },
+    {
+        title: "Tip Calculator",
+        discription: "One of the first projects from FrontendMentor i finished after starting javascript.",
+        url: "https://kris-kodehode.github.io/tipcalculator/",
+        gitHubURL: "https://github.com/kris-kodehode/tipcalculator",
+        background: require("../images/tip-calculator.png")
+    },
+    {
+        title: "Tip Calculator",
+        discription: "One of the first projects from FrontendMentor i finished after starting javascript.",
+        url: "https://kris-kodehode.github.io/tipcalculator/",
+        gitHubURL: "https://github.com/kris-kodehode/tipcalculator",
+        background: require("../images/tip-calculator.png")
+    },
+    {
+        title: "Tip Calculator",
+        discription: "One of the first projects from FrontendMentor i finished after starting javascript.",
+        url: "https://kris-kodehode.github.io/tipcalculator/",
+        gitHubURL: "https://github.com/kris-kodehode/tipcalculator",
+        background: require("../images/tip-calculator.png")
+    },
+    {
+        title: "Tip Calculator",
+        discription: "One of the first projects from FrontendMentor i finished after starting javascript.",
+        url: "https://kris-kodehode.github.io/tipcalculator/",
+        gitHubURL: "https://github.com/kris-kodehode/tipcalculator",
+        background: require("../images/tip-calculator.png")
     }
 ]
