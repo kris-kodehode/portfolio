@@ -2,6 +2,7 @@ import styled from "styled-components"
 import Slider from "react-slick"
 
 export const ProjectsContainer = styled.div`
+    transition: ease all .5s;
     margin-top: 50px;
     display: flex;
     gap: 50px;
@@ -11,6 +12,7 @@ export const ProjectsContainer = styled.div`
 `
 
 export const ProjectCard = styled.div`
+    transition: ease all .5s;
     display: flex;
     flex-direction: column;
     color: white;
@@ -20,20 +22,22 @@ export const ProjectCard = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Roboto Mono', monospace;
 
     @media (max-width: 768px) {
         width: 20rem;
-        height: 15rem;
     }
 `
 
 export const ProjectText = styled.div`
     background-color: rgb(77, 77, 77);
-    border-radius: 25px 25px 0 0;
+    border-radius: 20px 20px 0 0;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     color: white;
+    p{
+        margin: .5rem;
+    }
 `
 
 export const ProjectButtons = styled.div`
@@ -61,7 +65,7 @@ export const ProjectButtons = styled.div`
 export const StyledSlider = styled(Slider)`
 
     margin: 0 auto;
-    width: 83%;
+    width: 100%;
     max-width: 1700px;
 
     @media (max-width: 768px) {
@@ -76,5 +80,8 @@ export const StyledSlider = styled(Slider)`
     }
     .slick-dots li button::before{
         color: white !important;
+    }
+
+    .forCarousel{
     }
 `

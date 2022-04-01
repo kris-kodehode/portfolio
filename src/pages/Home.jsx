@@ -1,14 +1,15 @@
 import React from "react"
-import ProjectCarousel from "../components/ProjectCarousel"
-import HeaderProfileCard from "./home/HeaderProfileCard"
+import Projects from "./home/components/Projects"
+import AboutMe from "./home/components/AboutMe"
+import HeaderProfileCard from "./home/components/HeaderProfileCard"
 import { Wrapper } from "./home/HomeStyles"
 
 export default function Home() {
     return(
         <Wrapper>
             <HeaderProfileCard/>
-            
-            <ProjectCarousel/>
+            <AboutMe/>
+            <Projects/>
         </Wrapper> 
     )
 }

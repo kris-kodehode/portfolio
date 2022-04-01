@@ -1,11 +1,12 @@
 import styled from "styled-components"
 
 export const Nav = styled.nav`
+    transition: ease all .5s;
     display: flex;
     width: min-content;
     box-sizing: border-box;
     gap: 2rem;
-    margin: 2rem auto;
+    margin: 2rem auto 0 auto;
 
     @media (max-width: 768px) {
         gap: 0.6rem;

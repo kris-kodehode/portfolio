@@ -1,5 +1,5 @@
 import React from "react"
-import { IconContainer, Icon } from "../headerProfileCardStyles"
+import { IconContainer, Icon } from "./headerProfileCardStyles"
 
 export default function IconCollection() {
     return(

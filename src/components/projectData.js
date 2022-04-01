@@ -1,4 +1,4 @@
-export default [
+const ProjectArray = [
     {
         title: "Travel Journal",
         discription: "This is a small project I did as a part of a scrimba course",
@@ -56,3 +56,5 @@ export default [
         background: require("../images/tip-calculator.png")
     }
 ]
+
+export default ProjectArray

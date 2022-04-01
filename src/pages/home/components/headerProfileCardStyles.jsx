@@ -64,17 +64,19 @@ export const Icon = styled.i`
 //Grid for the profile card
 
 export const ProfileCard = styled.div`
+    transition: ease all .5s;
     display: grid; 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 4fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "profile paragraph"
         "icons paragraph"; 
     border-radius: 25px;
     gap: 0 2rem;
-    margin: 0 auto;
+    margin: 2rem auto 0 auto;
     box-sizing: border-box;
-    width: fit-content;
+    width: 90%;
+    max-width: 46rem;
     background: rgb(37, 37, 37);
     filter: drop-shadow(5px 5px 15px black);
     padding: 2rem;
@@ -83,6 +85,7 @@ export const ProfileCard = styled.div`
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        width: 90%;
     }
 `
 
@@ -99,7 +102,8 @@ export const ProfileNameGreeting = styled.h1`
 `
 
 export const ProfileParagraph = styled.p`
+    line-height: 170%;
     white-space: pre-line;
-    margin: 0 0 2rem 0;
+    margin: 0;
     width: 15rem;
 `

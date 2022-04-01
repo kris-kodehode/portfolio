@@ -3,6 +3,7 @@ import { AiFillPhone, AiFillGithub, AiOutlineCopyright } from "react-icons/ai"
 import { SiGmail, SiDiscord } from "react-icons/si"
 
 export const StyledFooter = styled.footer`
+    transition: ease all .5s;
     display: flex;
     align-items: center;
     justify-content: center;

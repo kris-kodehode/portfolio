@@ -6,6 +6,7 @@ export const Globalstyle = createGlobalStyle`
         margin: 0;
         background-color: rgb(37, 37, 37);
     }
+    
 `
 
 export const StyledApp = styled.div`

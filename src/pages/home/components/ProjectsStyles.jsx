@@ -1,11 +1,11 @@
 import styled from "styled-components"
 
-export const AboutMeContainer = styled.section`
+export const ProjectsWrapper = styled.section`
     line-height: 170%;
-    padding: 2rem 4rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    padding-bottom: 4rem;
     margin: 0 auto;
     background: rgb(37, 37, 37);
     filter: drop-shadow(5px 5px 15px black);
@@ -15,17 +15,25 @@ export const AboutMeContainer = styled.section`
     font-family: 'Roboto Mono', monospace;
     color: white;
     white-space: pre-line;
+`
+
+export const ProjectsTextContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
 
     @media (max-width: 768px) {
         padding: 2rem 2rem;
     }
 `
 
-export const AboutMeTitle = styled.h2`
-    margin: 1.5rem auto;
+export const StyledProjectsTitle = styled.h3`
+    margin: 2rem auto;
     font-size: 1.5rem;
 `
 
-export const AboutMeParagraph = styled.p`
-    
+export const StyledProjectsParagraph = styled.p`
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    white-space: pre-line;
 `
