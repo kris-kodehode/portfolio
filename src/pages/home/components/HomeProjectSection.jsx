@@ -1,9 +1,9 @@
 import React from "react"
-import ProjectCarousel from "../../../components/ProjectCarousel"
+import ProjectCarousel from "./ProjectCarousel"
 import { projects_Text_Paragraph, projects_Text_Title } from "../../../language/en"
-import { ProjectsWrapper, ProjectsTextContainer, StyledProjectsTitle, StyledProjectsParagraph } from "./ProjectsStyles"
+import { ProjectsWrapper, ProjectsTextContainer, StyledProjectsTitle, StyledProjectsParagraph } from "./HomeProjectStyles"
 
-export default function Projects() {
+export default function HomeProjectSection() {
     return (
         <ProjectsWrapper>
             <ProjectsTextContainer>

@@ -1,6 +1,6 @@
 import React from "react"
-import { StyledSlider } from "./projectStyles"
-import { projectsList } from "./Project"
+import { StyledSlider } from "../../../components/projectStyles"
+import { projectsList } from "../../../components/Project"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
